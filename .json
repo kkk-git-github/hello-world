@@ -1,0 +1,11 @@
+"JSON" {
+  "description": "New JSON",
+  "version": "^1.0.0beta",
+  "being": "maintained",
+  "server": null,
+  "user": {
+    "name": "kkk-git-github",
+    "type": "customer",
+  }
+}
+    
