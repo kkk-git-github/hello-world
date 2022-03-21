@@ -1,2 +1,2 @@
-branch main => readme-edits
-readme-edits = new branch
+# ATTENTION! THIS IS A DEMO REPOSITORY, CANNOT BE DOWNLOADED FOR ANY KINDS. IF YOU DO, WE WON'T WARRANTY OF ANY KIND. YOUR RISK TO DOWNLOAD
+This is a privaate demo repo. Firstly created.
