@@ -1,9 +1,9 @@
-h2.ad {
+.ad {
   color: blueviolet;
   padding: 2px;
 }
 
-button.sign-up-ad {
+.sign-up-ad {
   color: yellowgreen;
   outline-color: coral;
 }
