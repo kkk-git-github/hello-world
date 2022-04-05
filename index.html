@@ -5,22 +5,8 @@
   <title> Codingl </title>
 </header>
 <body>
-  <style>
-    .ad {
-  color: blueviolet;
-  padding: 2px;
-}
-
-.sign-up-ad {
-  color: yellowgreen,
-}
-h3 {
-  color: darkgoldenrod,
-}
-.code-example {
-  background-color: rgb(53, 42, 42),
-}
-  </style>
+  <style href="styles.css"></style>
+  <script href="script.js"></script>
   <h2 class="ad">Want to learn coding? Sign up now!</h2>
   <button class="sign-up-ad"> Sign up</button>
   <h3> Example of python code</h3>
@@ -100,5 +86,29 @@ h3 {
     </h3>
     <p> for large enterprises users. </p>
   </div>
+  <div class="after-signup-login" >
+    <button class="signup-button"> Sign up now!</button>
+    <h6 class="check-user">
+      or
+    </h6>
+    <button class="sign-in-button"> Sign in </button>
+  </div>
+  
+  <div class="user-info" hidden>
+    <div class="email" hidden>
+      <h5 class="user_email" hidden>
+        Email: 
+      </h5>
+      <input class="user_email_in" placeholder="Enter your email here..." hidden>
+    </div>
+    <div class="name"hidden>
+      <h5 class="user_name"hidden>
+        Username: 
+      </h5>
+      <input class="user_name_in" placeholder="Enter your name here..."hidden>
+    </div>
+    <button hidden> Submit </button>
+  </div>
+
 </body>
 </html>

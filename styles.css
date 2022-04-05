@@ -1,0 +1,19 @@
+.ad {
+  color: red;
+  background-color: lightskyblue;
+  padding:lightsalmon, 2px;
+}
+
+.sign-up-ad {
+  color: yellowgreen;
+}
+h3 {
+  color: darkgoldenrod;
+}
+.code-example {
+  background-color: rgb(53, 42, 42);
+}
+
+p.code1py {
+  color: salmon;
+}
