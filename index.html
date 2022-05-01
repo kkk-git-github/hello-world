@@ -5,9 +5,32 @@
   <title> Codingl </title>
 </header>
 <body>
-  <style href="styles.css"></style>
-  <script href="script.js"></script>
+  <script>
+    first_signup_button = document.getElementsByClassName("sign-up-ad");
+first_signup_button.addEventListener(
+  'click', function() {
+    console.log("An user pressed \'first_signup_button\'");
+    window.location.href("signup.html");
+  }
+)
+
+second_signup_button = document.getElementsByClassName("signup-button");
+second_signup_button.addEventListener(
+  'click', function() {
+    console.log("An user pressed \'second_signup_button\'");
+  }
+)
+  </script>
   <h2 class="ad">Want to learn coding? Sign up now!</h2>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    h2.ad {
+      text-align: justify;
+      text-decoration: dashed;
+      font-family: 'Ubuntu', sans-serif;
+
+    }
+  </style>
   <button class="sign-up-ad"> Sign up</button>
   <h3> Example of python code</h3>
   <div class="code-example">
