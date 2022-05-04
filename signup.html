@@ -18,10 +18,14 @@
       <script>
         let submitButtonSignup = document.getElementById("smt-btn1");
         submitButtonSignup.addEventListener("click", (reactionListener) => {
-          document.querySelector("html").innerHTML = "You created account succesfully!"
-        })
+          document.querySelector("html").innerHTML = "You created account succesfully! Do you want to go to your profile?";
+          document.getElementById("redirect-profile-yes").style.display = "block";
+          document.getElementById("redirect-profile-no").style.display = "block";
+        });
       </script>
       <button id="smt-btn1" onclick=""> Submit </button>
+      <button id="redirect-profile-yes" hidden>Redirect</button>
+      <button id="redirect-profile-no" hidden>No, thanks.</button>
     </div>
   </body>
 
