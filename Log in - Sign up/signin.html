@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="user-info">
+    <div class="signin">
+      <h2>Sign in</h2>
+      <div class="email">
+        <h5 class="user_email">
+          Email: 
+        </h5>
+        <input class="user_email_in" placeholder="Enter your email here...">
+      </div>
+      <div class="name">
+        <h5 class="user_name">
+          Username: 
+        </h5>
+        <input class="user_name_in" placeholder="Enter your name here...">
+      </div>
+      <script>
+        let submitButtonSignup = document.getElementById("smt-btn1");
+        submitButtonSignup.addEventListener("click", function() {
+          document.assign("profile-main-page.html");
+        })  
+      </script>
+      </div>
+      <button id="changeType" class="signupBTN"> Or sign up here </button>
+      <button id="smt-btn1"> Submit </button>
+      <script>
+        changeType = document.getElementById("changeType");
+        changeType.addEventListener("click", function() {
+          document.assign("signin.html");
+        });
+      </script>
+    </div>
+  </body>
+</html>
+
