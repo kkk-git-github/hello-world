@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="user-info">
+    <div class="signup">
+      <h2>Signup</h2>
+      <div class="email">
+        <h5 class="user_email">
+          Email: 
+        </h5>
+        <input class="user_email_in" placeholder="Enter your email here...">
+      </div>
+      <div class="name">
+        <h5 class="user_name">
+          Username: 
+        </h5>
+        <input class="user_name_in" placeholder="Enter your name here...">
+      </div>
+      <script>
+        let submitButtonSignup = document.getElementById("smt-btn1");
+        submitButtonSignup.addEventListener("click", (reactionListener) => {
+          document.querySelector("html").innerHTML = "You created account succesfully! Do you want to go to your profile?";
+          document.getElementById("redirect-profile-yes").style.display = "block";
+          document.getElementById("redirect-profile-no").style.display = "block";
+          document.getElementById("redirect-profile-yes").addEventListener("click", (redirect) => {
+            document.assign("profile-main-page.html");
+          })
+          document.getElementById("redirect-profile-no").addEventListener("click", (close) => {
+            window.close();
+          })
+        });
+      </script>
+      </div>
+      <button id="changeType" class="signinBTN"> Or sign in here </button>
+      <button id="smt-btn1"> Submit </button>
+      <button id="redirect-profile-yes" hidden>Redirect</button>
+      <button id="redirect-profile-no" hidden>No, thanks.</button>
+    </div>
+  </body>
+</html>
