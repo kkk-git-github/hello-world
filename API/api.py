@@ -21,7 +21,11 @@ app.add_middleware(
 @app.get("/my-api")
 
 class user:
-    username = str()
-    uid = random.randint(999, 9999)
-    userEmail = str()
-    
+    name = str()
+    email = str()
+    password = str()
+    def getusername():
+        name = input("Enter your name")
+        email = input("Enter your email")
+        password = input("Enter your password")
+        
