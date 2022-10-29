@@ -24,7 +24,7 @@ class user:
     name = str()
     email = str()
     password = str()
-    def getusername():
+    def getuserinfo():
         name = input("Enter your name")
         email = input("Enter your email")
         password = input("Enter your password")
