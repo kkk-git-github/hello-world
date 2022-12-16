@@ -8,5 +8,5 @@ When I was new to GitHub, I first created this repository (based on the GitHub s
 See in Security.md
 
 ## Attribution
-- You shouldn't download this repository (unless you are professional). If you do, I will not reponsible for any errors or bugs in your computer.
+- You MUST NOT download this repository of any kind. If you do, I will not reponsible for any errors or bugs in your computer.
 See more in Security.md
