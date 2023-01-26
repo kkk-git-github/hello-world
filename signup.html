@@ -18,22 +18,33 @@
       </div>
       <script>
         let submitButtonSignup = document.getElementById("smt-btn1");
-        submitButtonSignup.addEventListener("click", (reactionListener) => {
+          class account {
+            constructor(username, email) {
+              username = 
+            }
+          }
+
           document.querySelector("html").innerHTML = "You created account succesfully! Do you want to go to your profile?";
-          document.getElementById("redirect-profile-yes").style.display = "block";
-          document.getElementById("redirect-profile-no").style.display = "block";
           document.getElementById("redirect-profile-yes").addEventListener("click", (redirect) => {
             document.assign("profile-main-page.html");
           })
           document.getElementById("redirect-profile-no").addEventListener("click", (close) => {
             window.close();
           })
-        });
       </script>
       </div>
       <button id="changeType" class="signinBTN"> Or sign in here </button>
       <button id="smt-btn1"> Submit </button>
       <button id="redirect-profile-yes" hidden>Redirect</button>
+      <style>
+        #redirect-profile-yes, #redirect-profile-no {
+          display:grid;
+          border:5px;
+          text-align: center;
+          text-decoration: underline;
+          color:gold;
+        }
+      </style>
       <button id="redirect-profile-no" hidden>No, thanks.</button>
     </div>
   </body>
